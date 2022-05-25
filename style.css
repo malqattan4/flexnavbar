@@ -1,0 +1,50 @@
+.nav {
+    background-color: rgb(50, 48, 48);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    height: 30px;
+}
+
+.nav-title {
+    display: flex;
+    color: white;
+    font-family: monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    color: white;
+    font-family: monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+
+
+}
+
+.btn {
+    background-color: lightseagreen;
+    font-family: monospace;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: medium;
+    box-shadow: 4px 4px black;
+    border-color: black;
+    margin-left: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    color: gainsboro;
+    margin-right: 30px;
+
+}
+
+.active {
+    color: white;
+}
